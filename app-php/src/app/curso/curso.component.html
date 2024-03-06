@@ -1,1 +1,10 @@
-<p>curso works!</p>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Valor</th>
+    </tr>
+    <tr *ngFor="let v of vetor">
+        <td>{{v.nomeCurso}}</td>
+        <td>{{v.valorCurso}}</td>
+    </tr>
+</table>
